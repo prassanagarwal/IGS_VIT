@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGS-VIT</title>
+    <link rel="stylesheet" href="newstyle.css"/>
+</head>
+<body>
+    <div class="fullContainer banner" id="homeSection">
+        <header>
+            <div class ="container">
+                <div class="logo">
+                    <img src="logo.jpeg" alt="NGO LOGO" style="width: 100px; height: auto;">
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li>
+                            <a href ="#h1">Home</a>
+                        </li>
+                        <li>
+                            <a href ="#aboutSection1">About Us</a>
+                        </li>
+                        <li>
+                            <a href ="#aboutSection">Team</a>
+                        </li>
+                        <li>
+                            <a href ="#eventSection">Events</a>
+                        </li>
+                        <li>
+                            <a href ="#gallerySection">Gallery</a>
+                        </li>
+                        <li>
+                            <a href ="#Sponsorsection">Sponsors</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        <!--header end here-->
+        <div id="h1">
+            <h1 id="h2">Indian Geotechnical Society-VIT<br>
+                Presents Designathon</h1><br>
+                <button id="btn" onclick="openForm()">Register Now</button>
+        </div>
+        
+
+    </div>
+    <!--homesection end here-->
+
+    <section class="fullContainer" id="aboutSection1">
+     <div class="container">
+        <h2 class="sectionTitle">
+            About Us
+        </h2>
+        <p> The Indian Geotechnical Society (IGS) is dedicated to fostering collaboration and advancing knowledge in various disciplines such as Soil Mechanics, Foundation Engineering, Soil Dynamics, Engineering Geology, Rock Mechanics, Snow and Ice Mechanics, and related fields. Established in 1948, the IGS serves as a dynamic platform for researchers, academicians, designers, construction engineers, equipment manufacturers, and other stakeholders interested in geotechnical activities. At VIT, the IGS chapter provides a vibrant community for enthusiasts in Soil Mechanics and Rock Mechanics to engage in interactive events, exchange innovative ideas, and explore practical applications. Through its activities, the IGS promotes the dissemination of knowledge and the advancement of geotechnical sciences, contributing to the development of sustainable solutions for engineering challenges in India and beyond.</p>
+     </div>
+    </section>
+
+   <!----aboutSection end here-->
+   <section class="fullContainer" id="aboutSection2">
+    <div class="container">
+       <h2 class="sectionTitle">
+           About Designathon
+       </h2>
+       <p> The primary objective of this event is to offer a valuable platform specifically designed for undergraduate civil engineering students. The event aims to facilitate a comprehensive understanding and practical application of various fields within civil engineering through hands-on experience. Participants are encouraged to construct a 1 m^3 miniature working model utilizing waste materials, thereby emphasizing sustainable practices and creative problem-solving. While the event primarily targets first- and second-year civil engineering students, third-year students are also welcome to participate, providing an opportunity to showcase their accumulated knowledge and skills. By engaging students at different stages of their academic journey, the event fosters collaboration, encourages innovation, and nurtures a deeper appreciation for the diverse facets of civil engineering. Through this interactive and experiential approach, participants not only gain technical expertise but also develop critical thinking abilities and practical insights that are essential for their future careers in the field.</p>
+
+    </div>
+   </section>
+      <!----aboutSection end here-->
+      <section class="fullContainer3" id="aboutSection">
+        <div class="container">
+           <h2 class="sectionTitle">
+               Team
+           </h2>
+           <div class ="cards">
+                <div class="donationBox"></div>
+                <div class="VolunteerBox2"></div>
+                <div class="VolunteerBox"></div>
+                
+            </div>
+           <div class ="cards">
+               
+               <div class="SchlorshipBox"></div>
+               <div class="donationBox1"></div>
+               <div class="VolunteerBox1"></div>
+           </div>
+        </div>
+        <div class="container">
+            <div class ="cards">
+                
+                
+                <div class="SchlorshipBox1"></div>
+                <div class="donationBox2"></div>
+                <div class="VolunteerBox3"></div>
+                <!-- DonationBox end-->
+            </div>
+        </div>
+        <div class="container">
+            <div class ="cards">
+                <div class="SchlorshipBox4"></div>
+                <div class="donationBox4"></div>
+                <div class="donationBox5"></div>
+                <!-- DonationBox end-->
+            </div>
+        </div>
+    </section>
+    <section class="fullContainer" id="eventSection">
+        <div class="container">
+           <h2 class="sectionTitle">
+               Events
+           </h2>
+           <div id="list">
+            <p> 
+                <ul >
+                    <li class="li">Future Proofing</li>
+                    <li class="li"> Introduction to Advanced Study of Soil-Water Interaction.</li>
+                    <li class="li">Alumni's Connect - A Day of Insights</li>
+                    <li class="li">BBU- संवाद और निर्माण </li>
+                    <li class="li">CASA: Pen for Prevention</li>
+                    <li class="li">SDG : Sustaining Sphere</li>
+                    <li class="li">InteractSoil 2024</li> 
+                </ul>
+               </p>
+           </div> 
+        </div>
+    </section>
+    <section class="fullContainer" id="gallerySection">
+        <div class="container">
+           <h2 class="sectionTitle">
+               Gallery
+           </h2>
+           <div id="main">
+            <div id="imgs" class="container">
+                <img id="img1" class="mySlides" src="img1.jpg" style="width: 730px; height: 400px;">
+                <img id="img2" class="mySlides" src="img2.jpg" style="width: 730px; height: 400px;">
+                <img id="img3" class="mySlides" src="img3.jpg" style="width: 730px; height: 400px;">
+                <img id="img4" class="mySlides" src="img4.jpg" style="width: 730px; height: 400px;">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            
+        </div>
+        </div>
+       </section>
+       <script type="text/javascript">
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slides[slideIndex-1].style.display = "block";
+        }
+
+        var timerId = setInterval(function() { plusSlides(1); }, 3500);
+    </script>
+    <section class="fullContainer" id="Sponsorsection">
+        <div class="container">
+           <h2 class="sectionTitle">
+               Our Sponsors
+           </h2>
+           <img class="spon" src="spon1.jpg">
+           <img class="spon" src="spon2.png">
+           
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <div class="end2">
+                igs@vit.ac.in
+            </div>
+            <hr>
+            <div id="end">
+                <div class="end2">
+                    Contact:
+                Daksh Pratap Singh: +91 80047 41658
+                </div>
+                <div id="end1">
+                    &copy;2024 IGS-VIT.All Rights Reserved.
+                </div>
+            </div>
+            
+        </div>
+        
+    </footer>
+    <script>
+        function openForm() {
+            window.open("https://forms.gle/gEjjsxw1jvCixaqK6", "_blank");
+        }
+    </script>
+    
+
+</body>
+</html>

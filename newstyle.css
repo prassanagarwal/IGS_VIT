@@ -1,0 +1,399 @@
+/* Common style start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --themeblue: #0f57dd;
+    --gray:#efefef;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+button, 
+body{
+    font-family:"Poppins", sans-serif;
+}
+
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.fullContainer{
+    width:100%;
+}
+.container{
+    width:1140px;
+    margin: auto;
+}
+
+.sectionTitle{
+    width:500px;
+    border-bottom: 3px solid var(--themeblue);
+    text-align:center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin:0 auto 50px;
+    position:relative;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+section{
+    padding:100px 0;
+    position: relative;
+}
+#cards
+{
+    padding-top: 100px;
+}
+
+
+
+
+/*Common style end*/
+
+
+/*Home style start */
+
+header{
+    width:100%;
+    background-color: rgba(0,0,0,0.6);
+    position:fixed;
+    z-index:2;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+}
+
+header  .container .l1{
+    padding: 15px 0;
+    height:75px;
+}
+
+header . .container.l1 jpg {
+    height:100%;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    display:inline-block;
+    height:75px;
+    line-height: 75px;
+    padding:0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    background-color: var(--themeblue);
+}
+
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.banner h2{
+    background-color: #fff;
+    display:inline-block;
+    line-height: 3.5rem;
+    padding :0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.banner p {
+    color:#efefef;
+    width:50%;
+    text-shadow: 0 0 2px #000;
+    margin-top:10px;
+}
+
+
+
+
+/*Home style end */
+
+
+img{
+    height:400px;
+}
+
+
+/* AboutSection Start*/
+/* AboutSection Start*/
+
+#aboutSection .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+
+#aboutSection .cards > div {
+    width: 270px;
+    background-color: var(--gray);
+    padding: 35px;
+    color: #444;
+    text-align: center;
+    border-radius: 5px;
+    height: 270px;
+    border: 1px solid #ccc;
+    transition: 0.4s;
+    margin-bottom: 30px; /* Add margin to create space between cards */
+}
+
+#aboutSection .cards > div:hover {
+    width: 400px;
+    margin-top: -20px;
+    border-color: var(--themeblue);
+    padding: 55px;
+    height: 400px;
+}
+
+#aboutSection .cards > div .title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#aboutSection .cards > div p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#aboutSection .cards > div button {
+    border: 1px solid var(--themeblue);
+    outline: none;
+    padding: 7px 15px;
+    margin-top: 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#aboutSection .cards > div:hover button {
+    background-color: var(--themeblue);
+    color: #fff;
+}
+
+/* Add margin to create space between the first and second cards div */
+#aboutSection .cards:first-child {
+    margin-bottom: 30px;
+}
+.donationBox
+{
+    background-image: url("1mg.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.VolunteerBox
+{
+    background-image: url("5.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.SchlorshipBox
+{
+    background-image: url("2mg.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.donationBox1
+{
+    background-image: url("6.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.VolunteerBox1
+{
+    background-image: url("7.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.SchlorshipBox1
+{
+    background-image: url("3.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.donationBox2
+{
+    background-image: url("8.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.VolunteerBox3
+{
+    background-image: url("9.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.VolunteerBox2
+{
+    background-image: url("img7.jpeg");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.SchlorshipBox4
+{
+    background-image: url("10.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.donationBox4
+{
+    background-image: url("4.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.donationBox5
+{
+    background-image: url("11.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.cards1
+{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.li
+{
+    text-align:justify;
+}
+img{
+    width: 50px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+#imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Set position relative for containing absolute-positioned elements */
+    height: 400px; /* Set a fixed height for the gallery container */
+    width:730px;
+}
+
+.mySlides {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    display: none; /* Hide images by default */
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute; /* Position the buttons relative to the container */
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+    z-index: 1; /* Ensure buttons are above images */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.spon
+{
+    width:500px;
+    padding-left: 50px;
+
+}
+#footer
+{
+    height:60px;
+    
+}
+#end
+{
+    display: flex;
+}
+#end1
+{
+    padding-left:800px;
+}
+.end2
+{
+    padding-left: 50px;
+}
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 100;
+    font-weight: 300;
+   
+}
+#btn
+{
+    margin-top: 500px;
+    height:50px;
+    width:200px;
+    background-color:white;
+    font-size: 14px;
+}
+#btn:hover{
+    background-color:black;
+    color:white;
+
+}
+/*#h2
+{
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+
+
+
